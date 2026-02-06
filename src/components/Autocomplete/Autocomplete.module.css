@@ -1,0 +1,38 @@
+.autocomplete {
+  position: relative;
+  width: 100%;
+}
+
+.suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin-top: var(--spacing-xs);
+  background-color: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-sm);
+  box-shadow: var(--shadow-lg);
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1000;
+  list-style: none;
+  padding: var(--spacing-xs);
+}
+
+.suggestionItem {
+  padding: var(--spacing-sm) var(--spacing-md);
+  cursor: pointer;
+  border-radius: var(--border-radius-sm);
+  transition: background-color var(--transition);
+  color: var(--color-text);
+}
+
+.suggestionItem:hover,
+.highlighted {
+  background-color: var(--color-background-secondary);
+}
+
+.suggestionItem:active {
+  background-color: var(--color-border);
+}

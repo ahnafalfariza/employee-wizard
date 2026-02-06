@@ -1,0 +1,430 @@
+{
+  "departments": [
+    {
+      "id": 1,
+      "name": "Lending"
+    },
+    {
+      "id": 2,
+      "name": "Funding"
+    },
+    {
+      "id": 3,
+      "name": "Operations"
+    },
+    {
+      "id": 4,
+      "name": "Engineering"
+    }
+  ],
+  "basicInfo": [
+    {
+      "fullName": "Ahnaf",
+      "email": "patricia.miller@mail.com",
+      "department": "Lending",
+      "role": "Engineer",
+      "employeeId": "LEN-001",
+      "id": 1
+    },
+    {
+      "fullName": "AA",
+      "email": "nancy.scott@mail.com",
+      "department": "Lending",
+      "role": "Engineer",
+      "employeeId": "LEN-002",
+      "id": 2
+    },
+    {
+      "fullName": "Sarah Johnson",
+      "email": "sharon.taylor@mail.com",
+      "department": "Funding",
+      "role": "Finance",
+      "employeeId": "FUN-001",
+      "id": 3
+    },
+    {
+      "fullName": "Michael Chen",
+      "email": "nancy.sari@mail.com",
+      "department": "Engineering",
+      "role": "Engineer",
+      "employeeId": "ENG-001",
+      "id": 4
+    },
+    {
+      "fullName": "Dewi Sari",
+      "email": "emily.jones@mail.com",
+      "department": "Operations",
+      "role": "Ops",
+      "employeeId": "OPE-001",
+      "id": 5
+    },
+    {
+      "fullName": "Budi Santoso",
+      "email": "nugroho.wilson@mail.com",
+      "department": "Lending",
+      "role": "Admin",
+      "employeeId": "LEN-003",
+      "id": 6
+    },
+    {
+      "fullName": "Lisa Wijaya",
+      "email": "susan.lopez@mail.com",
+      "department": "Funding",
+      "role": "Admin",
+      "employeeId": "FUN-002",
+      "id": 7
+    },
+    {
+      "fullName": "Rizki Pratama",
+      "email": "charles.lopez@mail.com",
+      "department": "Engineering",
+      "role": "Engineer",
+      "employeeId": "ENG-002",
+      "id": 8
+    },
+    {
+      "fullName": "Maya Kusuma",
+      "email": "rizki.carter@mail.com",
+      "department": "Operations",
+      "role": "Ops",
+      "employeeId": "OPE-016",
+      "id": 9
+    },
+    {
+      "fullName": "Ahmad Fauzi",
+      "email": "nugroho.lee@mail.com",
+      "department": "Lending",
+      "role": "Finance",
+      "employeeId": "LEN-004",
+      "id": 10
+    },
+    {
+      "fullName": "Maria Garcia",
+      "email": "permata.carter@mail.com",
+      "department": "Funding",
+      "role": "Engineer",
+      "employeeId": "FUN-003",
+      "id": 11
+    },
+    {
+      "fullName": "Pratama Thompson",
+      "email": "nugroho.martinez@mail.com",
+      "department": "Funding",
+      "role": "Admin",
+      "employeeId": "FUN-015",
+      "id": 12
+    },
+    {
+      "fullName": "Ahmad Williams",
+      "email": "putri.jackson@mail.com",
+      "department": "Operations",
+      "role": "Ops",
+      "employeeId": "OPE-017",
+      "id": 13
+    },
+    {
+      "fullName": "Santoso Wilson",
+      "email": "pratama.davis@mail.com",
+      "department": "Engineering",
+      "role": "Engineer",
+      "employeeId": "ENG-003",
+      "id": 14
+    },
+    {
+      "fullName": "Barbara Smith",
+      "email": "andrew.green@mail.com",
+      "department": "Funding",
+      "role": "Finance",
+      "employeeId": "FUN-016",
+      "id": 15
+    },
+    {
+      "fullName": "Charles Jones",
+      "email": "maria.jones@mail.com",
+      "department": "Engineering",
+      "role": "Ops",
+      "employeeId": "ENG-019",
+      "id": 16
+    },
+    {
+      "fullName": "Nurhaliza Santoso",
+      "email": "nurhaliza.rodriguez@mail.com",
+      "department": "Engineering",
+      "role": "Ops",
+      "employeeId": "ENG-020",
+      "id": 17
+    },
+    {
+      "fullName": "Siti Pratama",
+      "email": "permata.rahman@mail.com",
+      "department": "Operations",
+      "role": "Finance",
+      "employeeId": "OPE-018",
+      "id": 18
+    },
+    {
+      "fullName": "Siti Brown",
+      "email": "karen.brown@mail.com",
+      "department": "Funding",
+      "role": "Ops",
+      "employeeId": "FUN-017",
+      "id": 19
+    },
+    {
+      "fullName": "Rahman Santoso",
+      "email": "lisa.jones@mail.com",
+      "department": "Lending",
+      "role": "Engineer",
+      "employeeId": "LEN-005",
+      "id": 20
+    },
+    {
+      "fullName": "Dewi Garcia",
+      "email": "daniel.walker@mail.com",
+      "department": "Engineering",
+      "role": "Ops",
+      "employeeId": "ENG-021",
+      "id": 21
+    },
+    {
+      "fullName": "Permata Sari",
+      "email": "jessica.williams@mail.com",
+      "department": "Lending",
+      "role": "Finance",
+      "employeeId": "LEN-016",
+      "id": 22
+    },
+    {
+      "fullName": "Kusuma Handayani",
+      "email": "daniel.williams@mail.com",
+      "department": "Lending",
+      "role": "Admin",
+      "employeeId": "LEN-017",
+      "id": 23
+    },
+    {
+      "fullName": "Ahmad Permata",
+      "email": "fajar.smith@mail.com",
+      "department": "Operations",
+      "role": "Finance",
+      "employeeId": "OPE-019",
+      "id": 24
+    },
+    {
+      "fullName": "Michael Wijaya",
+      "email": "susan.taylor@mail.com",
+      "department": "Engineering",
+      "role": "Engineer",
+      "employeeId": "ENG-022",
+      "id": 25
+    },
+    {
+      "fullName": "Fajar Handayani",
+      "email": "carol.chen@mail.com",
+      "department": "Funding",
+      "role": "Finance",
+      "employeeId": "FUN-018",
+      "id": 26
+    },
+    {
+      "fullName": "Ahmad Brown",
+      "email": "john.martinez@mail.com",
+      "department": "Operations",
+      "role": "Finance",
+      "employeeId": "OPE-020",
+      "id": 27
+    },
+    {
+      "fullName": "Patricia Lee",
+      "email": "karen.davis@mail.com",
+      "department": "Operations",
+      "role": "Finance",
+      "employeeId": "OPE-021",
+      "id": 28
+    },
+    {
+      "fullName": "Maya Permata",
+      "email": "permata.taylor@mail.com",
+      "department": "Operations",
+      "role": "Engineer",
+      "employeeId": "OPE-022",
+      "id": 29
+    },
+    {
+      "fullName": "Nurhaliza Taylor",
+      "email": "permata.harris@mail.com",
+      "department": "Engineering",
+      "role": "Engineer",
+      "employeeId": "ENG-023",
+      "id": 30
+    },
+    {
+      "fullName": "Nurhaliza Johnson",
+      "email": "linda.brown@mail.com",
+      "department": "Funding",
+      "role": "Engineer",
+      "employeeId": "FUN-019",
+      "id": 31
+    },
+    {
+      "fullName": "John Brown",
+      "email": "steven.green@mail.com",
+      "department": "Operations",
+      "role": "Finance",
+      "employeeId": "OPE-023",
+      "id": 32
+    },
+    {
+      "fullName": "Nina Santoso",
+      "email": "paul.walker@mail.com",
+      "department": "Lending",
+      "role": "Engineer",
+      "employeeId": "LEN-018",
+      "id": 33
+    },
+    {
+      "fullName": "Santoso Smith",
+      "email": "siti.permata@mail.com",
+      "department": "Funding",
+      "role": "Admin",
+      "employeeId": "FUN-020",
+      "id": 34
+    },
+    {
+      "fullName": "Rahman Chen",
+      "email": "thomas.pratama@mail.com",
+      "department": "Engineering",
+      "role": "Engineer",
+      "employeeId": "ENG-024",
+      "id": 35
+    },
+    {
+      "fullName": "Robert Sari",
+      "email": "joseph.davis@mail.com",
+      "department": "Engineering",
+      "role": "Finance",
+      "employeeId": "ENG-025",
+      "id": 36
+    },
+    {
+      "fullName": "Putri Harris",
+      "email": "robert.jackson@mail.com",
+      "department": "Lending",
+      "role": "Ops",
+      "employeeId": "LEN-019",
+      "id": 37
+    },
+    {
+      "fullName": "Budi Smith",
+      "email": "nancy.allen@mail.com",
+      "department": "Operations",
+      "role": "Finance",
+      "employeeId": "OPE-024",
+      "id": 38
+    },
+    {
+      "fullName": "Robert Handayani",
+      "email": "charles.scott@mail.com",
+      "department": "Lending",
+      "role": "Finance",
+      "employeeId": "LEN-020",
+      "id": 39
+    },
+    {
+      "fullName": "Budi Smith",
+      "email": "anthony.lopez@mail.com",
+      "department": "Engineering",
+      "role": "Admin",
+      "employeeId": "ENG-026",
+      "id": 40
+    },
+    {
+      "fullName": "Jennifer Moore",
+      "email": "paul.williams@mail.com",
+      "department": "Operations",
+      "role": "Admin",
+      "employeeId": "OPE-025",
+      "id": 41
+    },
+    {
+      "fullName": "Jessica Nurhaliza",
+      "email": "barbara.scott@mail.com",
+      "department": "Funding",
+      "role": "Admin",
+      "employeeId": "FUN-021",
+      "id": 42
+    },
+    {
+      "fullName": "James Santoso",
+      "email": "sandra.robinson@mail.com",
+      "department": "Operations",
+      "role": "Finance",
+      "employeeId": "OPE-026",
+      "id": 43
+    },
+    {
+      "fullName": "Pratama Martin",
+      "email": "nancy.brown@mail.com",
+      "department": "Operations",
+      "role": "Engineer",
+      "employeeId": "OPE-027",
+      "id": 44
+    },
+    {
+      "fullName": "Sarah Anderson",
+      "email": "james.martinez@mail.com",
+      "department": "Funding",
+      "role": "Admin",
+      "employeeId": "FUN-022",
+      "id": 45
+    },
+    {
+      "fullName": "Dewi White",
+      "email": "pratama.green@mail.com",
+      "department": "Engineering",
+      "role": "Finance",
+      "employeeId": "ENG-027",
+      "id": 46
+    },
+    {
+      "fullName": "Barbara Wilson",
+      "email": "thomas.nelson@mail.com",
+      "department": "Operations",
+      "role": "Admin",
+      "employeeId": "OPE-028",
+      "id": 47
+    },
+    {
+      "fullName": "Ayu Pratama",
+      "email": "lisa.walker@mail.com",
+      "department": "Engineering",
+      "role": "Engineer",
+      "employeeId": "ENG-028",
+      "id": 48
+    },
+    {
+      "fullName": "Santoso Smith",
+      "email": "budi.martin@mail.com",
+      "department": "Engineering",
+      "role": "Engineer",
+      "employeeId": "ENG-029",
+      "id": 49
+    },
+    {
+      "fullName": "Handayani Lee",
+      "email": "wijaya.adams@mail.com",
+      "department": "Engineering",
+      "role": "Engineer",
+      "employeeId": "ENG-030",
+      "id": 50
+    },
+    {
+      "fullName": "Ahnaf",
+      "email": "ahnaf@mail.com",
+      "department": "Lending",
+      "role": "Admin",
+      "employeeId": "LEN-011",
+      "id": 51
+    }
+  ]
+}

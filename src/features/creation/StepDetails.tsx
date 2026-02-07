@@ -7,6 +7,7 @@ import { Input } from '../../components/Input/Input';
 import { useFormState } from '../../hooks/useFormState';
 import { useStepDraft, restoreStepDraft } from '../../hooks/useDraftPersistence';
 import type { Details, Location, Role } from '../../types';
+import { API_STEP2_URL } from '../../config/env';
 import styles from './Creation.module.css';
 
 const detailsSchema = z.object({
@@ -166,7 +167,7 @@ export const StepDetails = ({
       <Autocomplete<Location>
         id="officeLocation"
         label="Office Location"
-        endpoint="http://localhost:4002/locations"
+        endpoint={`${API_STEP2_URL}/locations`}
         queryParam="name_like"
         onSelect={handleLocationSelect}
         value={values.officeLocation}

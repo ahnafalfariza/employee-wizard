@@ -7,6 +7,7 @@ import { generateEmployeeId } from '../../utils/generateEmployeeId';
 import { useFormState } from '../../hooks/useFormState';
 import { useStepDraft, restoreStepDraft } from '../../hooks/useDraftPersistence';
 import type { BasicInfo, Department, Role } from '../../types';
+import { API_STEP1_URL } from '../../config/env';
 import styles from './Creation.module.css';
 
 const basicInfoSchema = z.object({
@@ -108,7 +109,7 @@ export const StepBasicInfo = ({ onSubmit, role }: StepBasicInfoProps) => {
       <Autocomplete<Department>
         id="department"
         label="Department"
-        endpoint="http://localhost:4001/departments"
+        endpoint={`${API_STEP1_URL}/departments`}
         queryParam="name_like"
         onSelect={handleDepartmentSelect}
         value={values.department}

@@ -1,8 +1,9 @@
 import type { BasicInfo } from '../types';
+import { API_STEP1_URL } from '../config/env';
 
 export const generateEmployeeId = async (department: string): Promise<string> => {
   try {
-    const response = await fetch('http://localhost:4001/basicInfo');
+    const response = await fetch(`${API_STEP1_URL}/basicInfo`);
     const employees: BasicInfo[] = await response.json();
 
     const deptPrefix = department.slice(0, 3).toUpperCase();

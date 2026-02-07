@@ -1,7 +1,8 @@
 import { fetchApi } from './api';
 import type { BasicInfo } from '../types';
+import { API_STEP1_URL } from '../config/env';
 
-const BASE_URL = 'http://localhost:4001';
+const BASE_URL = API_STEP1_URL;
 
 export const basicInfoService = {
   getAll: async (): Promise<BasicInfo[]> => {

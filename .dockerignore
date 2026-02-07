@@ -1,0 +1,17 @@
+node_modules
+dist
+.git
+.gitignore
+*.log
+.env
+.env.*
+!.env.example
+.vscode
+.idea
+coverage
+**/__tests__
+**/*.test.ts
+**/*.test.tsx
+jest.config.js
+src/setupTests.ts
+README.md

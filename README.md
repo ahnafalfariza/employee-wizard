@@ -39,6 +39,14 @@ Role-based employee management app with a multi-step creation flow. Built with R
 
 4. **Optional:** Copy `.env.example` to `.env` and set `VITE_API_STEP1_URL` / `VITE_API_STEP2_URL` if your APIs run on different hosts.
 
+**Dev with APIs in Docker:** Run only the json-server APIs in containers, then the app locally for fast HMR:
+
+```bash
+docker compose -f docker-compose.dev.yml up
+```
+
+In another terminal: `bun run dev` (or `npm run dev`). The app uses `localhost:4001` and `localhost:4002` by default.
+
 ## Routes
 
 | Path | Description |
@@ -89,6 +97,15 @@ src/
 
 **Step 1 (4001):** `departments`, `basicInfo` — search: `?name_like=...`  
 **Step 2 (4002):** `locations`, `details` — search: `?name_like=...`, filter by `employeeId` for “Fill details”.
+
+## Deployment (Docker)
+
+```bash
+docker build -t employee-wizard .
+docker run -p 4000:4000 employee-wizard
+```
+
+Open http://localhost:4000. One container: nginx serves the app and proxies `/api/step1` and `/api/step2` to json-server.
 
 ## Testing
 

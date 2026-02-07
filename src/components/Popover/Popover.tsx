@@ -61,9 +61,9 @@ export const Popover = ({
   const handleTriggerClick = () => setOpen(!open);
 
   const triggerElement = isValidElement(trigger)
-    ? cloneElement(trigger as React.ReactElement<{ onClick?: () => void }>, {
+    ? cloneElement(trigger as React.ReactElement<{ onClick?: (e: React.MouseEvent) => void }>, {
         onClick: (e: React.MouseEvent) => {
-          (trigger as React.ReactElement<{ onClick?: () => void }>).props.onClick?.(e);
+          (trigger as React.ReactElement<{ onClick?: (e: React.MouseEvent) => void }>).props.onClick?.(e);
           handleTriggerClick();
         },
       })
